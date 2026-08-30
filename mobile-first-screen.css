@@ -114,4 +114,96 @@
     transform:rotate(90deg);
     color:#8b826e;
   }
+
+  /* AI-STUDIO: four clear mobile stages instead of one long technical column. */
+  .studio-intro{margin-bottom:24px;gap:14px}
+  .studio-model{
+    counter-reset:studio-stage;
+    grid-template-columns:1fr;
+    gap:0;
+    padding:14px;
+    border-radius:20px;
+  }
+  .studio-zone{
+    counter-increment:studio-stage;
+    padding:17px 15px 16px;
+    border:1px solid rgba(224,226,223,.09);
+    border-radius:15px;
+    background:linear-gradient(180deg,rgba(255,255,255,.028),rgba(255,255,255,.009));
+  }
+  .studio-zone small{
+    display:block;
+    margin-bottom:13px;
+    color:var(--blue);
+    font-size:.63rem;
+    line-height:1.35;
+    letter-spacing:.075em;
+  }
+  .studio-zone small::before{
+    content:"0" counter(studio-stage) " · ";
+    color:var(--sand);
+  }
+  .studio-zone .studio-node{
+    width:100%;
+    padding:11px 12px;
+    text-align:center;
+    font-size:.78rem;
+    line-height:1.35;
+  }
+  .studio-zone>i{
+    display:block;
+    height:17px;
+    line-height:17px;
+    text-align:center;
+    font-size:.76rem;
+    color:#74838a;
+  }
+  .studio-zone .human-gate{
+    border-color:rgba(196,179,140,.40);
+    color:#dfd3b8;
+    background:rgba(196,179,140,.045);
+  }
+  .zone-arrow{
+    display:grid;
+    place-items:center;
+    height:24px;
+    font-size:0;
+    color:#6f7c82;
+  }
+  .zone-arrow::before{
+    content:"↓";
+    font-size:.8rem;
+    line-height:1;
+  }
+  .studio-rails{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:8px;
+    margin-top:14px;
+    padding:14px;
+    border:1px solid rgba(224,226,223,.09);
+    border-radius:16px;
+    background:linear-gradient(180deg,rgba(255,255,255,.018),rgba(255,255,255,.006));
+  }
+  .studio-rails::before{
+    grid-column:1/-1;
+    margin-bottom:2px;
+    color:var(--sand);
+    font-size:.61rem;
+    font-weight:650;
+    letter-spacing:.08em;
+  }
+  html[data-lang="ru"] .studio-rails::before{content:"СКВОЗНЫЕ КОНТУРЫ"}
+  html[data-lang="en"] .studio-rails::before{content:"CROSS-CUTTING CONTROLS"}
+  .studio-rails span{
+    display:flex;
+    align-items:center;
+    min-height:42px;
+    padding:9px 10px;
+    border:1px solid rgba(224,226,223,.075);
+    border-radius:10px;
+    color:var(--muted);
+    font-size:.68rem;
+    line-height:1.35;
+  }
 }
