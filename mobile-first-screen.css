@@ -223,7 +223,7 @@
   .foundation-grid h3{margin:15px 0 8px}
 
   /* Next step: softer scale and tone for the mobile closing message. */
-  .contact{padding-top:46px;border-top:0}
+  .contact{padding-top:36px;border-top:0}
   .contact-copy .eyebrow{
     color:var(--sand);
     font-size:.62rem;
@@ -231,7 +231,7 @@
   }
   .contact h2{
     margin-top:6px;
-    max-width:12ch;
+    max-width:none;
     font-size:1.88rem;
     line-height:1.08;
     font-weight:430;
