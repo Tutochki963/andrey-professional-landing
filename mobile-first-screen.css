@@ -207,4 +207,8 @@
     font-size:.68rem;
     line-height:1.35;
   }
+
+  /* Tighten only the transition from AI-STUDIO to Professional Foundation. */
+  .studio{padding-bottom:28px}
+  .foundation{padding-top:34px}
 }
