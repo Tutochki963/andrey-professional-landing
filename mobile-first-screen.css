@@ -115,6 +115,10 @@
     color:#8b826e;
   }
 
+  /* Tighten only the transition from Case 03 to AI-STUDIO. */
+  .selected-work{padding-bottom:28px}
+  .studio{padding-top:34px}
+
   /* AI-STUDIO: four clear mobile stages instead of one long technical column. */
   .studio-intro{margin-bottom:24px;gap:14px}
   .studio-model{
