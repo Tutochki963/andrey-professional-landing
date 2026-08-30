@@ -36,4 +36,30 @@
   .meaning-flow span{padding-right:0}
 
   .proof-strip{margin-top:8px}
+
+  /* Case 01 only: convert the operating-flow evidence into a calm vertical route. */
+  .case-blue .flow-diagram{
+    flex-direction:column;
+    flex-wrap:nowrap;
+    align-items:stretch;
+    justify-content:flex-start;
+    gap:7px;
+    min-height:auto;
+    padding:20px 22px;
+  }
+  .case-blue .flow-diagram span{
+    width:100%;
+    padding:11px 14px;
+    text-align:center;
+    font-size:.78rem;
+    line-height:1.35;
+  }
+  .case-blue .flow-diagram i{
+    align-self:center;
+    height:15px;
+    line-height:15px;
+    font-size:.76rem;
+    transform:rotate(90deg);
+    color:#74838a;
+  }
 }
