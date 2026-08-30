@@ -37,7 +37,7 @@
 
   .proof-strip{margin-top:8px}
 
-  /* Case 01 only: convert the operating-flow evidence into a calm vertical route. */
+  /* Case 01 only: calm vertical operating route. */
   .case-blue .flow-diagram{
     flex-direction:column;
     flex-wrap:nowrap;
@@ -61,5 +61,31 @@
     font-size:.76rem;
     transform:rotate(90deg);
     color:#74838a;
+  }
+
+  /* Case 02 only: vertical diagnostic route with more readable steps. */
+  .case-sage .diagnostic-flow{
+    flex-direction:column;
+    flex-wrap:nowrap;
+    align-items:stretch;
+    justify-content:flex-start;
+    gap:7px;
+    min-height:auto;
+    padding:20px 22px;
+  }
+  .case-sage .diagnostic-flow span{
+    width:100%;
+    padding:11px 14px;
+    text-align:center;
+    font-size:.78rem;
+    line-height:1.35;
+  }
+  .case-sage .diagnostic-flow i{
+    align-self:center;
+    height:15px;
+    line-height:15px;
+    font-size:.76rem;
+    transform:rotate(90deg);
+    color:#74837c;
   }
 }
