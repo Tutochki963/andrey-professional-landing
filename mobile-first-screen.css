@@ -169,6 +169,7 @@
     height:24px;
     font-size:0;
     color:#6f7c82;
+    transform:none;
   }
   .zone-arrow::before{
     content:"↓";
