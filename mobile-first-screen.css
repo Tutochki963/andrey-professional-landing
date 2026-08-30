@@ -221,4 +221,27 @@
   .foundation-title{margin-bottom:28px}
   .foundation-grid article{padding:22px 28px}
   .foundation-grid h3{margin:15px 0 8px}
+
+  /* Next step: softer scale and tone for the mobile closing message. */
+  .contact{padding-top:46px}
+  .contact-copy .eyebrow{
+    color:var(--sand);
+    font-size:.62rem;
+    letter-spacing:.09em;
+  }
+  .contact h2{
+    margin-top:6px;
+    max-width:12ch;
+    font-size:1.88rem;
+    line-height:1.08;
+    font-weight:430;
+    color:#dedbd4;
+    letter-spacing:-.018em;
+  }
+  .contact-copy>p:last-child{
+    margin-top:15px;
+    color:#aab2b6;
+    font-size:.92rem;
+    line-height:1.55;
+  }
 }
