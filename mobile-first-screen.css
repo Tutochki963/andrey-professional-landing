@@ -215,4 +215,10 @@
   /* Tighten only the transition from AI-STUDIO to Professional Foundation. */
   .studio{padding-bottom:28px}
   .foundation{padding-top:34px}
+
+  /* Professional Foundation: about 15–20% tighter vertically on mobile only. */
+  .foundation{padding-bottom:52px}
+  .foundation-title{margin-bottom:28px}
+  .foundation-grid article{padding:22px 28px}
+  .foundation-grid h3{margin:15px 0 8px}
 }
