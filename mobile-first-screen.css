@@ -1,0 +1,28 @@
+/* Mobile first-screen refinement only. Desktop remains unchanged. */
+@media (max-width:430px){
+  .site-header{min-height:58px;padding-block:9px}
+  .brand{font-size:.76rem;letter-spacing:.065em}
+  .brand-sun{width:22px;height:22px}
+  .lang-toggle{padding:7px 11px;font-size:.78rem}
+
+  .hero{gap:18px;padding:34px 0 24px}
+  .hero-copy{max-width:none}
+  .eyebrow{font-size:.6rem;line-height:1.45;letter-spacing:.085em}
+  .hero-name{margin:12px 0 8px;font-size:.75rem;letter-spacing:.045em}
+  .hero h1{font-size:1.92rem;line-height:1.08;letter-spacing:-.02em}
+  .hero-text{margin-top:16px;font-size:.93rem;line-height:1.55}
+  .hero-actions{margin-top:20px;gap:9px}
+  .hero-actions .btn{min-height:44px;padding:0 14px;font-size:.88rem}
+  .hero-principle{margin-top:18px;padding-top:13px;font-size:.78rem;line-height:1.5}
+
+  .hero-visual{gap:8px;margin-top:2px}
+  .emblem-field{width:236px}
+  .cyber-sun-image{width:76%}
+  .meaning-rail{width:100%;padding:11px 6px 10px}
+  .meaning-rail small{margin-bottom:7px;font-size:.56rem;line-height:1.4;letter-spacing:.075em;text-align:center}
+  .meaning-flow{justify-content:center;gap:4px 7px;font-size:.63rem;line-height:1.45}
+  .meaning-flow i{display:inline;color:#657177;font-size:.72rem}
+  .meaning-flow span{padding-right:0}
+
+  .proof-strip{margin-top:8px}
+}
